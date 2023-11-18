@@ -1,0 +1,38 @@
+---
+layout: archive
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  <div class="featured-publications">
+
+    {% if paginator %}
+      {% assign posts = paginator.posts %}
+    {% else %}
+      {% assign posts = site.posts %}
+    {% endif %}
+    
+    {% assign entries_layout = page.entries_layout | default: 'list' %}
+    <div class="entries-{{ entries_layout }}">
+      {% for post in posts %}
+        {% include archive-single.html type=entries_layout %}
+      {% endfor %}
+    </div>
+    
+    {% include paginator.html %}
+
+    {{ content }}
+
+  </div>
+</div>
