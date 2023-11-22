@@ -65,31 +65,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Hannah Rowe, PhD, CCC-SLP"
+  name   : " "
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Current Postdoc at Boston University. Enthusiastic about climbing mountains, running long distances, and speech motor control."
   links:
     - label: "ResearchGate"
       icon: "fab fa-researchgate"
       url: "https://www.researchgate.net/profile/Hannah-Rowe-7/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/hrowe802/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/hannah-rowe-35710875/"
     - label: "NIH Publication List"
       icon: "fa-solid fa-book"
       url: "https://www.ncbi.nlm.nih.gov/myncbi/hannah.rowe.2/bibliography/public/"
-
-footer:
-  links:
-    - label: "ResearchGate"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.researchgate.net/profile/Hannah-Rowe-7/"
+    - label: "Google Scholar"
+      icon: "fa fa-google"
+      url: "https://scholar.google.com/citations?user=H0p_rgQAAAAJ"
+    - label: "GitHub"
+      icon: "fa fa-github"
+      url: "https://github.com/hrowe802"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/hrowe802/"
+
+footer:
+  links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/hannah-rowe-35710875/"

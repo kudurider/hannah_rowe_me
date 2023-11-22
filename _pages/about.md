@@ -1,6 +1,5 @@
 ---
 permalink: /about/
-title: "About"
 ---
 
 Hello! I am a speech scientist and certified speech-language pathologist interested in speech motor control in neurologically impaired populations. I completed my PhD in Rehabilitation Sciences at the MGH Institute of Health Professions (advisor: Dr. Jordan Green) and am currently a postdoctoral research fellow in speech neuroscience at Boston University (advisor: Dr. Frank Guenther).

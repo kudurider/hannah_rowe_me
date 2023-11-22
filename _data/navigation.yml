@@ -1,7 +1,7 @@
 main:
-  - title: "CV"
-    url: https://2f5f7207-66e2-40b8-903d-508d2b312f20.filesusr.com/ugd/7dd64c_e1d0af18e0d44882a4bfcb20e925082d.pdf
+  - title: "Home"
+    url: /about/
   - title: "Featured Publications"
     url: /featured-publications/
-  - title: "About"
-    url: /about/
+  - title: "CV"
+    url: https://2f5f7207-66e2-40b8-903d-508d2b312f20.filesusr.com/ugd/7dd64c_e1d0af18e0d44882a4bfcb20e925082d.pdf
